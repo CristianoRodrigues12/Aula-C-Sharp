@@ -1,0 +1,37 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+  background-color:lightsalmon;
+}
+
+.tableUm {
+    background-color:aqua;
+    text-align:center;
+    width:68%;
+}
+
+.tableDois {
+    background-color:blueviolet;
+    text-align:center;
+    width:68%;
+}
+
+.tableTres {
+    background-color: darkcyan;
+    text-align: center;
+    width: 68%;
+}

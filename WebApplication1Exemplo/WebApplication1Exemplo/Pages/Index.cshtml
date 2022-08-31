@@ -1,0 +1,77 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "My page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Bem Vindos</h1>
+    <p>Acompanhe <a href="https://cristianorodrigues12.github.io/Cadastro-Simples/">GitHub</a>.</p>
+</div>
+
+<h1>Tabelas</h1>
+<div class="tableUm">
+    <table border="1">
+        <tr>
+            <th>Primeira Coluna</th>
+            <th>Segunda Coluna</th>
+            <th>Segunda Coluna</th>
+        </tr>  
+        <tr>
+            <td>Segunda lina 1 Coluna</td>
+            <td>Segunda lina 2 Coluna</td>
+            <td>Segunda lina 3 Coluna</td>
+        </tr> 
+        <tr>
+            <td>Terceira lina 1 Coluna</td>
+            <td>Terceira lina 2 Coluna</td>
+            <td>Terceira lina 3 Coluna</td>
+        </tr> 
+    </table> 
+</div>
+
+
+    <h1>Tabelas Mescladas - Colunas</h1>
+
+    <div class="tableDois">
+
+        <table border="1">
+            <tr>
+                <th colspan="2">Coluna Mesclada</th>
+                <th>Segunda Coluna</th>
+            </tr>  
+            <tr>
+                <td>Segunda lina 1 Coluna</td>
+                <td>Segunda lina 2 Coluna</td>
+                <td>Segunda lina 3 Coluna</td>
+            </tr> 
+            <tr>
+                <td>Terceira lina 1 Coluna</td>
+                <td>Terceira lina 2 Coluna</td>
+                <td>Terceira lina 3 Coluna</td>
+            </tr> 
+        </table> 
+    </div>
+
+    <h1>Tabelas Mescladas - Linhas</h1>
+
+    <div class="tableTres">
+
+        <table border="1">
+            <tr>
+                <th>Primeira Coluna</th>
+                <th>Segunda Coluna</th>
+                <th>Segunda Coluna</th>
+            </tr>  
+            <tr>
+                <td rowspan="2">Segunda lina 1 Coluna</td>
+                <td>Segunda lina 2 Coluna</td>
+                <td>Segunda lina 3 Coluna</td>
+            </tr> 
+            <tr>
+            
+                <td>Terceira lina 2 Coluna</td>
+                <td>Terceira lina 3 Coluna</td>
+            </tr> 
+        </table> 
+    </div>
